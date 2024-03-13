@@ -1,0 +1,13 @@
+/home/liner/sylar/build/CMakeFiles/sylar.dir
+/home/liner/sylar/build/CMakeFiles/test.dir
+/home/liner/sylar/build/CMakeFiles/test_config.dir
+/home/liner/sylar/build/CMakeFiles/test_thread.dir
+/home/liner/sylar/build/CMakeFiles/test_pipe.dir
+/home/liner/sylar/build/CMakeFiles/test_util.dir
+/home/liner/sylar/build/CMakeFiles/test_fiber.dir
+/home/liner/sylar/build/CMakeFiles/test_scheduler.dir
+/home/liner/sylar/build/CMakeFiles/test_iomanager.dir
+/home/liner/sylar/build/CMakeFiles/test_hook.dir
+/home/liner/sylar/build/CMakeFiles/test_address.dir
+/home/liner/sylar/build/CMakeFiles/edit_cache.dir
+/home/liner/sylar/build/CMakeFiles/rebuild_cache.dir
