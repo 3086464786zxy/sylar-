@@ -63,7 +63,7 @@ public:
                 typename std::vector<T> vec;
                 std::stringstream ss;
                 for (size_t i = 0; i < node.size(); i++) {
-                        ss.str("");
+                        ss.str(""); 	//清空ss
                         ss << node[i];
                         vec.push_back(LexicalCast<std::string, T>()(ss.str()));
                 }

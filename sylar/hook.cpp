@@ -119,12 +119,12 @@ retry:
 
 		if (to != (uint64_t)-1) {
 			timer = iom->addConditionTimer(to, [winfo, fd, iom, event]() {
-				auto t = winfo.lock();				
-				if (!t || t->cancelled) {
+				auto t = winfo.lock();		//定时器回来
+				if (!t || t->cancelled) {		//没有触发定时器，定时器已经失效
 					return;
 				}
 				t->cancelled = ETIMEDOUT;
-				iom->cancelEvent(fd, (sylar::IOManager::Event)(event));
+				iom->cancelEvent(fd, (sylar::IOManager::Event)(event));		//取消事件，强制唤醒
 			}, winfo);
 		}
 
@@ -140,14 +140,15 @@ retry:
 			SYLAR_LOG_DEBUG(g_logger) << "do_io<" << hook_fun_name << ">";
 			sylar::Fiber::YieldToHold();
 			SYLAR_LOG_DEBUG(g_logger) << "do_io<" << hook_fun_name << ">";
-			if (timer) {
+			if (timer) {		//事件发生，如果定时器存在则取消定时器
 				timer->cancel();
 			}
-			if (tinfo->cancelled) {
+			if (tinfo->cancelled) {		//如果被定时器唤醒，未触发该事件，则将错误设置为超时
 				errno = tinfo->cancelled;
 				return -1;
 			}
 
+			//此时真的有数据来，将数据重新读取
 			goto retry;
 		}
 	}

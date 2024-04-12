@@ -9,5 +9,7 @@
 /home/liner/sylar/build/CMakeFiles/test_iomanager.dir
 /home/liner/sylar/build/CMakeFiles/test_hook.dir
 /home/liner/sylar/build/CMakeFiles/test_address.dir
+/home/liner/sylar/build/CMakeFiles/test_socket.dir
+/home/liner/sylar/build/CMakeFiles/test_bytearray.dir
 /home/liner/sylar/build/CMakeFiles/edit_cache.dir
 /home/liner/sylar/build/CMakeFiles/rebuild_cache.dir

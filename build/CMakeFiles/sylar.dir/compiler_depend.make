@@ -282,6 +282,282 @@ CMakeFiles/sylar.dir/sylar/address.cpp.o: /home/liner/sylar/sylar/address.cpp \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h
 
+CMakeFiles/sylar.dir/sylar/bytearray.cpp.o: /home/liner/sylar/sylar/bytearray.cpp \
+  /home/liner/sylar/sylar/bytearray.h \
+  /home/liner/sylar/sylar/endian1.h \
+  /home/liner/sylar/sylar/log.h \
+  /home/liner/sylar/sylar/noncopyable.h \
+  /home/liner/sylar/sylar/singleton.h \
+  /home/liner/sylar/sylar/thread.h \
+  /home/liner/sylar/sylar/util.h \
+  /usr/include/alloca.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/byteswap.h \
+  /usr/include/c++/12/atomic \
+  /usr/include/c++/12/backward/auto_ptr.h \
+  /usr/include/c++/12/backward/binders.h \
+  /usr/include/c++/12/bit \
+  /usr/include/c++/12/bits/align.h \
+  /usr/include/c++/12/bits/alloc_traits.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/allocator.h \
+  /usr/include/c++/12/bits/atomic_base.h \
+  /usr/include/c++/12/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12/bits/basic_ios.h \
+  /usr/include/c++/12/bits/basic_ios.tcc \
+  /usr/include/c++/12/bits/basic_string.h \
+  /usr/include/c++/12/bits/basic_string.tcc \
+  /usr/include/c++/12/bits/char_traits.h \
+  /usr/include/c++/12/bits/charconv.h \
+  /usr/include/c++/12/bits/chrono.h \
+  /usr/include/c++/12/bits/codecvt.h \
+  /usr/include/c++/12/bits/concept_check.h \
+  /usr/include/c++/12/bits/cpp_type_traits.h \
+  /usr/include/c++/12/bits/cxxabi_forced.h \
+  /usr/include/c++/12/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12/bits/erase_if.h \
+  /usr/include/c++/12/bits/exception.h \
+  /usr/include/c++/12/bits/exception_defines.h \
+  /usr/include/c++/12/bits/exception_ptr.h \
+  /usr/include/c++/12/bits/fstream.tcc \
+  /usr/include/c++/12/bits/functexcept.h \
+  /usr/include/c++/12/bits/functional_hash.h \
+  /usr/include/c++/12/bits/hash_bytes.h \
+  /usr/include/c++/12/bits/invoke.h \
+  /usr/include/c++/12/bits/ios_base.h \
+  /usr/include/c++/12/bits/istream.tcc \
+  /usr/include/c++/12/bits/list.tcc \
+  /usr/include/c++/12/bits/locale_classes.h \
+  /usr/include/c++/12/bits/locale_classes.tcc \
+  /usr/include/c++/12/bits/locale_conv.h \
+  /usr/include/c++/12/bits/locale_facets.h \
+  /usr/include/c++/12/bits/locale_facets.tcc \
+  /usr/include/c++/12/bits/locale_facets_nonio.h \
+  /usr/include/c++/12/bits/locale_facets_nonio.tcc \
+  /usr/include/c++/12/bits/localefwd.h \
+  /usr/include/c++/12/bits/memoryfwd.h \
+  /usr/include/c++/12/bits/move.h \
+  /usr/include/c++/12/bits/nested_exception.h \
+  /usr/include/c++/12/bits/new_allocator.h \
+  /usr/include/c++/12/bits/ostream.tcc \
+  /usr/include/c++/12/bits/ostream_insert.h \
+  /usr/include/c++/12/bits/parse_numbers.h \
+  /usr/include/c++/12/bits/postypes.h \
+  /usr/include/c++/12/bits/predefined_ops.h \
+  /usr/include/c++/12/bits/ptr_traits.h \
+  /usr/include/c++/12/bits/range_access.h \
+  /usr/include/c++/12/bits/refwrap.h \
+  /usr/include/c++/12/bits/shared_ptr.h \
+  /usr/include/c++/12/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12/bits/shared_ptr_base.h \
+  /usr/include/c++/12/bits/sstream.tcc \
+  /usr/include/c++/12/bits/std_abs.h \
+  /usr/include/c++/12/bits/std_function.h \
+  /usr/include/c++/12/bits/std_thread.h \
+  /usr/include/c++/12/bits/stl_algobase.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/stl_construct.h \
+  /usr/include/c++/12/bits/stl_function.h \
+  /usr/include/c++/12/bits/stl_iterator.h \
+  /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12/bits/stl_list.h \
+  /usr/include/c++/12/bits/stl_map.h \
+  /usr/include/c++/12/bits/stl_multimap.h \
+  /usr/include/c++/12/bits/stl_pair.h \
+  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12/bits/stl_tempbuf.h \
+  /usr/include/c++/12/bits/stl_tree.h \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/streambuf.tcc \
+  /usr/include/c++/12/bits/streambuf_iterator.h \
+  /usr/include/c++/12/bits/stringfwd.h \
+  /usr/include/c++/12/bits/this_thread_sleep.h \
+  /usr/include/c++/12/bits/unique_ptr.h \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/utility.h \
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/cctype \
+  /usr/include/c++/12/cerrno \
+  /usr/include/c++/12/clocale \
+  /usr/include/c++/12/cmath \
+  /usr/include/c++/12/cstdint \
+  /usr/include/c++/12/cstdio \
+  /usr/include/c++/12/cstdlib \
+  /usr/include/c++/12/ctime \
+  /usr/include/c++/12/cwchar \
+  /usr/include/c++/12/cwctype \
+  /usr/include/c++/12/debug/assertions.h \
+  /usr/include/c++/12/debug/debug.h \
+  /usr/include/c++/12/exception \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/ext/alloc_traits.h \
+  /usr/include/c++/12/ext/atomicity.h \
+  /usr/include/c++/12/ext/concurrence.h \
+  /usr/include/c++/12/ext/numeric_traits.h \
+  /usr/include/c++/12/ext/string_conversions.h \
+  /usr/include/c++/12/ext/type_traits.h \
+  /usr/include/c++/12/fstream \
+  /usr/include/c++/12/functional \
+  /usr/include/c++/12/initializer_list \
+  /usr/include/c++/12/iomanip \
+  /usr/include/c++/12/ios \
+  /usr/include/c++/12/iosfwd \
+  /usr/include/c++/12/istream \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/list \
+  /usr/include/c++/12/locale \
+  /usr/include/c++/12/map \
+  /usr/include/c++/12/memory \
+  /usr/include/c++/12/new \
+  /usr/include/c++/12/ostream \
+  /usr/include/c++/12/ratio \
+  /usr/include/c++/12/sstream \
+  /usr/include/c++/12/stdexcept \
+  /usr/include/c++/12/streambuf \
+  /usr/include/c++/12/string \
+  /usr/include/c++/12/system_error \
+  /usr/include/c++/12/thread \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/type_traits \
+  /usr/include/c++/12/typeinfo \
+  /usr/include/c++/12/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/libintl.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/linux/errno.h \
+  /usr/include/locale.h \
+  /usr/include/math.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/semaphore.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/time.h \
+  /usr/include/unistd.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/unistd.h \
+  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/flt-eval-method.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
+  /usr/include/x86_64-linux-gnu/bits/fp-logb.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/iscanonical.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h \
+  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/syscall.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/uio-ext.h \
+  /usr/include/x86_64-linux-gnu/bits/uio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/syscall.h \
+  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/uio.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h
+
 CMakeFiles/sylar.dir/sylar/config.cpp.o: /home/liner/sylar/sylar/config.cpp \
   /home/liner/sylar/sylar/config.h \
   /home/liner/sylar/sylar/log.h \
@@ -4722,6 +4998,313 @@ CMakeFiles/sylar.dir/sylar/scheduler.cpp.o: /home/liner/sylar/sylar/scheduler.cp
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
   /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h
 
+CMakeFiles/sylar.dir/sylar/socket.cpp.o: /home/liner/sylar/sylar/socket.cpp \
+  /home/liner/sylar/sylar/thread.h \
+  /home/liner/sylar/sylar/address.h \
+  /home/liner/sylar/sylar/fd_manager.h \
+  /home/liner/sylar/sylar/fiber.h \
+  /home/liner/sylar/sylar/hook.h \
+  /home/liner/sylar/sylar/iomanager.h \
+  /home/liner/sylar/sylar/log.h \
+  /home/liner/sylar/sylar/macro.h \
+  /home/liner/sylar/sylar/noncopyable.h \
+  /home/liner/sylar/sylar/scheduler.h \
+  /home/liner/sylar/sylar/singleton.h \
+  /home/liner/sylar/sylar/socket.h \
+  /home/liner/sylar/sylar/thread.h \
+  /home/liner/sylar/sylar/timer.h \
+  /home/liner/sylar/sylar/util.h \
+  /usr/include/alloca.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/asm-generic/bitsperlong.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/ioctl.h \
+  /usr/include/asm-generic/ioctls.h \
+  /usr/include/asm-generic/posix_types.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/assert.h \
+  /usr/include/c++/12/atomic \
+  /usr/include/c++/12/backward/auto_ptr.h \
+  /usr/include/c++/12/backward/binders.h \
+  /usr/include/c++/12/bit \
+  /usr/include/c++/12/bits/align.h \
+  /usr/include/c++/12/bits/alloc_traits.h \
+  /usr/include/c++/12/bits/allocated_ptr.h \
+  /usr/include/c++/12/bits/allocator.h \
+  /usr/include/c++/12/bits/atomic_base.h \
+  /usr/include/c++/12/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/12/bits/basic_ios.h \
+  /usr/include/c++/12/bits/basic_ios.tcc \
+  /usr/include/c++/12/bits/basic_string.h \
+  /usr/include/c++/12/bits/basic_string.tcc \
+  /usr/include/c++/12/bits/char_traits.h \
+  /usr/include/c++/12/bits/charconv.h \
+  /usr/include/c++/12/bits/chrono.h \
+  /usr/include/c++/12/bits/codecvt.h \
+  /usr/include/c++/12/bits/concept_check.h \
+  /usr/include/c++/12/bits/cpp_type_traits.h \
+  /usr/include/c++/12/bits/cxxabi_forced.h \
+  /usr/include/c++/12/bits/cxxabi_init_exception.h \
+  /usr/include/c++/12/bits/erase_if.h \
+  /usr/include/c++/12/bits/exception.h \
+  /usr/include/c++/12/bits/exception_defines.h \
+  /usr/include/c++/12/bits/exception_ptr.h \
+  /usr/include/c++/12/bits/fstream.tcc \
+  /usr/include/c++/12/bits/functexcept.h \
+  /usr/include/c++/12/bits/functional_hash.h \
+  /usr/include/c++/12/bits/hash_bytes.h \
+  /usr/include/c++/12/bits/invoke.h \
+  /usr/include/c++/12/bits/ios_base.h \
+  /usr/include/c++/12/bits/istream.tcc \
+  /usr/include/c++/12/bits/list.tcc \
+  /usr/include/c++/12/bits/locale_classes.h \
+  /usr/include/c++/12/bits/locale_classes.tcc \
+  /usr/include/c++/12/bits/locale_facets.h \
+  /usr/include/c++/12/bits/locale_facets.tcc \
+  /usr/include/c++/12/bits/localefwd.h \
+  /usr/include/c++/12/bits/memoryfwd.h \
+  /usr/include/c++/12/bits/move.h \
+  /usr/include/c++/12/bits/nested_exception.h \
+  /usr/include/c++/12/bits/new_allocator.h \
+  /usr/include/c++/12/bits/ostream.tcc \
+  /usr/include/c++/12/bits/ostream_insert.h \
+  /usr/include/c++/12/bits/parse_numbers.h \
+  /usr/include/c++/12/bits/postypes.h \
+  /usr/include/c++/12/bits/predefined_ops.h \
+  /usr/include/c++/12/bits/ptr_traits.h \
+  /usr/include/c++/12/bits/range_access.h \
+  /usr/include/c++/12/bits/refwrap.h \
+  /usr/include/c++/12/bits/shared_ptr.h \
+  /usr/include/c++/12/bits/shared_ptr_atomic.h \
+  /usr/include/c++/12/bits/shared_ptr_base.h \
+  /usr/include/c++/12/bits/sstream.tcc \
+  /usr/include/c++/12/bits/std_abs.h \
+  /usr/include/c++/12/bits/std_function.h \
+  /usr/include/c++/12/bits/std_thread.h \
+  /usr/include/c++/12/bits/stl_algobase.h \
+  /usr/include/c++/12/bits/stl_bvector.h \
+  /usr/include/c++/12/bits/stl_construct.h \
+  /usr/include/c++/12/bits/stl_function.h \
+  /usr/include/c++/12/bits/stl_iterator.h \
+  /usr/include/c++/12/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/12/bits/stl_iterator_base_types.h \
+  /usr/include/c++/12/bits/stl_list.h \
+  /usr/include/c++/12/bits/stl_map.h \
+  /usr/include/c++/12/bits/stl_multimap.h \
+  /usr/include/c++/12/bits/stl_multiset.h \
+  /usr/include/c++/12/bits/stl_pair.h \
+  /usr/include/c++/12/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/12/bits/stl_set.h \
+  /usr/include/c++/12/bits/stl_tempbuf.h \
+  /usr/include/c++/12/bits/stl_tree.h \
+  /usr/include/c++/12/bits/stl_uninitialized.h \
+  /usr/include/c++/12/bits/stl_vector.h \
+  /usr/include/c++/12/bits/streambuf.tcc \
+  /usr/include/c++/12/bits/streambuf_iterator.h \
+  /usr/include/c++/12/bits/stringfwd.h \
+  /usr/include/c++/12/bits/this_thread_sleep.h \
+  /usr/include/c++/12/bits/unique_ptr.h \
+  /usr/include/c++/12/bits/uses_allocator.h \
+  /usr/include/c++/12/bits/utility.h \
+  /usr/include/c++/12/bits/vector.tcc \
+  /usr/include/c++/12/cctype \
+  /usr/include/c++/12/cerrno \
+  /usr/include/c++/12/clocale \
+  /usr/include/c++/12/cstdint \
+  /usr/include/c++/12/cstdio \
+  /usr/include/c++/12/cstdlib \
+  /usr/include/c++/12/ctime \
+  /usr/include/c++/12/cwchar \
+  /usr/include/c++/12/cwctype \
+  /usr/include/c++/12/debug/assertions.h \
+  /usr/include/c++/12/debug/debug.h \
+  /usr/include/c++/12/exception \
+  /usr/include/c++/12/ext/aligned_buffer.h \
+  /usr/include/c++/12/ext/alloc_traits.h \
+  /usr/include/c++/12/ext/atomicity.h \
+  /usr/include/c++/12/ext/concurrence.h \
+  /usr/include/c++/12/ext/numeric_traits.h \
+  /usr/include/c++/12/ext/string_conversions.h \
+  /usr/include/c++/12/ext/type_traits.h \
+  /usr/include/c++/12/fstream \
+  /usr/include/c++/12/functional \
+  /usr/include/c++/12/initializer_list \
+  /usr/include/c++/12/ios \
+  /usr/include/c++/12/iosfwd \
+  /usr/include/c++/12/iostream \
+  /usr/include/c++/12/istream \
+  /usr/include/c++/12/limits \
+  /usr/include/c++/12/list \
+  /usr/include/c++/12/map \
+  /usr/include/c++/12/memory \
+  /usr/include/c++/12/new \
+  /usr/include/c++/12/ostream \
+  /usr/include/c++/12/ratio \
+  /usr/include/c++/12/set \
+  /usr/include/c++/12/sstream \
+  /usr/include/c++/12/stdexcept \
+  /usr/include/c++/12/streambuf \
+  /usr/include/c++/12/string \
+  /usr/include/c++/12/system_error \
+  /usr/include/c++/12/thread \
+  /usr/include/c++/12/tuple \
+  /usr/include/c++/12/type_traits \
+  /usr/include/c++/12/typeinfo \
+  /usr/include/c++/12/vector \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/errno.h \
+  /usr/include/fcntl.h \
+  /usr/include/features-time64.h \
+  /usr/include/features.h \
+  /usr/include/ifaddrs.h \
+  /usr/include/linux/close_range.h \
+  /usr/include/linux/errno.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/linux/ioctl.h \
+  /usr/include/linux/posix_types.h \
+  /usr/include/linux/stddef.h \
+  /usr/include/locale.h \
+  /usr/include/netinet/in.h \
+  /usr/include/netinet/tcp.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/semaphore.h \
+  /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
+  /usr/include/stdio.h \
+  /usr/include/stdlib.h \
+  /usr/include/string.h \
+  /usr/include/strings.h \
+  /usr/include/time.h \
+  /usr/include/ucontext.h \
+  /usr/include/unistd.h \
+  /usr/include/wchar.h \
+  /usr/include/wctype.h \
+  /usr/include/x86_64-linux-gnu/asm/bitsperlong.h \
+  /usr/include/x86_64-linux-gnu/asm/errno.h \
+  /usr/include/x86_64-linux-gnu/asm/ioctl.h \
+  /usr/include/x86_64-linux-gnu/asm/ioctls.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types.h \
+  /usr/include/x86_64-linux-gnu/asm/posix_types_64.h \
+  /usr/include/x86_64-linux-gnu/asm/socket.h \
+  /usr/include/x86_64-linux-gnu/asm/sockios.h \
+  /usr/include/x86_64-linux-gnu/asm/unistd.h \
+  /usr/include/x86_64-linux-gnu/asm/unistd_64.h \
+  /usr/include/x86_64-linux-gnu/bits/atomic_wide_counter.h \
+  /usr/include/x86_64-linux-gnu/bits/byteswap.h \
+  /usr/include/x86_64-linux-gnu/bits/confname.h \
+  /usr/include/x86_64-linux-gnu/bits/cpu-set.h \
+  /usr/include/x86_64-linux-gnu/bits/endian.h \
+  /usr/include/x86_64-linux-gnu/bits/endianness.h \
+  /usr/include/x86_64-linux-gnu/bits/environments.h \
+  /usr/include/x86_64-linux-gnu/bits/errno.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl-linux.h \
+  /usr/include/x86_64-linux-gnu/bits/fcntl.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
+  /usr/include/x86_64-linux-gnu/bits/floatn.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
+  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
+  /usr/include/x86_64-linux-gnu/bits/in.h \
+  /usr/include/x86_64-linux-gnu/bits/indirect-return.h \
+  /usr/include/x86_64-linux-gnu/bits/ioctl-types.h \
+  /usr/include/x86_64-linux-gnu/bits/ioctls.h \
+  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
+  /usr/include/x86_64-linux-gnu/bits/locale.h \
+  /usr/include/x86_64-linux-gnu/bits/long-double.h \
+  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
+  /usr/include/x86_64-linux-gnu/bits/pthread_stack_min-dynamic.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes-arch.h \
+  /usr/include/x86_64-linux-gnu/bits/pthreadtypes.h \
+  /usr/include/x86_64-linux-gnu/bits/sched.h \
+  /usr/include/x86_64-linux-gnu/bits/select.h \
+  /usr/include/x86_64-linux-gnu/bits/semaphore.h \
+  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
+  /usr/include/x86_64-linux-gnu/bits/sockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/socket.h \
+  /usr/include/x86_64-linux-gnu/bits/socket_type.h \
+  /usr/include/x86_64-linux-gnu/bits/stat.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
+  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
+  /usr/include/x86_64-linux-gnu/bits/stdlib-float.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_mutex.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
+  /usr/include/x86_64-linux-gnu/bits/struct_stat.h \
+  /usr/include/x86_64-linux-gnu/bits/syscall.h \
+  /usr/include/x86_64-linux-gnu/bits/thread-shared-types.h \
+  /usr/include/x86_64-linux-gnu/bits/time.h \
+  /usr/include/x86_64-linux-gnu/bits/time64.h \
+  /usr/include/x86_64-linux-gnu/bits/timesize.h \
+  /usr/include/x86_64-linux-gnu/bits/timex.h \
+  /usr/include/x86_64-linux-gnu/bits/types.h \
+  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos64_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__fpos_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clock_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/clockid_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/cookie_io_functions_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/sigset_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/stack_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_FILE.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct___jmp_buf_tag.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_iovec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_itimerspec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_osockaddr.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_sched_param.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timespec.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_timeval.h \
+  /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h \
+  /usr/include/x86_64-linux-gnu/bits/types/time_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/timer_t.h \
+  /usr/include/x86_64-linux-gnu/bits/types/wint_t.h \
+  /usr/include/x86_64-linux-gnu/bits/typesizes.h \
+  /usr/include/x86_64-linux-gnu/bits/uintn-identity.h \
+  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
+  /usr/include/x86_64-linux-gnu/bits/waitflags.h \
+  /usr/include/x86_64-linux-gnu/bits/waitstatus.h \
+  /usr/include/x86_64-linux-gnu/bits/wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wctype-wchar.h \
+  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/atomic_word.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/basic_file.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++config.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++io.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/c++locale.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/cpu_defines.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_base.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/ctype_inline.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/gthr-default.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/gthr.h \
+  /usr/include/x86_64-linux-gnu/c++/12/bits/os_defines.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
+  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
+  /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+  /usr/include/x86_64-linux-gnu/sys/ioctl.h \
+  /usr/include/x86_64-linux-gnu/sys/select.h \
+  /usr/include/x86_64-linux-gnu/sys/single_threaded.h \
+  /usr/include/x86_64-linux-gnu/sys/socket.h \
+  /usr/include/x86_64-linux-gnu/sys/syscall.h \
+  /usr/include/x86_64-linux-gnu/sys/time.h \
+  /usr/include/x86_64-linux-gnu/sys/ttydefaults.h \
+  /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/include/x86_64-linux-gnu/sys/ucontext.h \
+  /usr/include/x86_64-linux-gnu/sys/un.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdarg.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdint.h
+
 CMakeFiles/sylar.dir/sylar/thread.cpp.o: /home/liner/sylar/sylar/thread.cpp \
   /home/liner/sylar/sylar/log.h \
   /home/liner/sylar/sylar/noncopyable.h \
@@ -5482,6 +6065,8 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /home/liner/sylar/sylar/thread.cpp:
 
+/home/liner/sylar/sylar/socket.h:
+
 /home/liner/sylar/sylar/scheduler.cpp:
 
 /usr/include/x86_64-linux-gnu/bits/dl_find_object.h:
@@ -5498,6 +6083,8 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/x86_64-linux-gnu/asm/types.h:
 
+/home/liner/sylar/sylar/socket.cpp:
+
 /usr/include/x86_64-linux-gnu/asm/ioctl.h:
 
 /usr/include/ucontext.h:
@@ -5505,8 +6092,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/linux/types.h:
 
 /usr/include/linux/stat.h:
-
-/usr/include/fcntl.h:
 
 /usr/include/asm-generic/types.h:
 
@@ -5548,25 +6133,11 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/local/include/yaml-cpp/emitter.h:
 
-/usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h:
-
 /usr/lib/gcc/x86_64-linux-gnu/12/include/limits.h:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h:
 
 /usr/local/include/yaml-cpp/node/detail/iterator.h:
 
 /usr/include/x86_64-linux-gnu/bits/posix2_lim.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
-
-/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
-
-/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
-
-/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
 
 /usr/local/include/yaml-cpp/ostream_wrapper.h:
 
@@ -5581,8 +6152,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/c++/12/complex:
 
 /usr/include/c++/12/compare:
-
-/usr/include/c++/12/cmath:
 
 /usr/include/c++/12/cfloat:
 
@@ -5603,14 +6172,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/c++/12/bits/stl_algo.h:
 
 /usr/include/c++/12/bits/slice_array.h:
-
-/usr/include/c++/12/bits/locale_facets_nonio.tcc:
-
-/usr/include/c++/12/bits/locale_facets_nonio.h:
-
-/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
-
-/usr/include/c++/12/bits/locale_conv.h:
 
 /usr/include/c++/12/bits/gslice_array.h:
 
@@ -5642,10 +6203,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/boost/type_traits/is_pointer.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
-
-/usr/include/boost/type_traits/is_pod.hpp:
-
 /usr/include/boost/type_traits/is_lvalue_reference.hpp:
 
 /usr/include/boost/type_traits/is_integral.hpp:
@@ -5667,10 +6224,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/boost/type_traits/is_member_pointer.hpp:
 
 /usr/include/boost/type_traits/has_right_shift.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
-
-/usr/include/boost/type_traits/has_plus_assign.hpp:
 
 /usr/include/boost/type_traits/has_minus_assign.hpp:
 
@@ -5821,12 +6374,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /home/liner/sylar/sylar/fd_manager.cpp:
 
 /usr/include/boost/preprocessor/array/elem.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h:
-
-/usr/include/boost/type_traits/remove_reference.hpp:
-
-/usr/include/boost/preprocessor/array/data.hpp:
 
 /usr/include/boost/preprocessor/arithmetic/dec.hpp:
 
@@ -6022,13 +6569,63 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/boost/mpl/list/aux_/begin_end.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/stat.h:
+/usr/include/boost/preprocessor/arithmetic/sub.hpp:
 
-/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
+/usr/include/boost/mpl/list/aux_/O1_size.hpp:
+
+/usr/include/boost/mpl/limits/vector.hpp:
+
+/usr/include/boost/mpl/limits/list.hpp:
+
+/usr/local/include/yaml-cpp/yaml.h:
+
+/usr/include/boost/mpl/limits/arity.hpp:
+
+/usr/include/x86_64-linux-gnu/sys/epoll.h:
+
+/usr/include/boost/mpl/less_equal.hpp:
+
+/usr/include/boost/mpl/vector/aux_/push_front.hpp:
+
+/usr/include/boost/mpl/less.hpp:
+
+/usr/include/boost/mpl/lambda_fwd.hpp:
+
+/usr/include/boost/mpl/lambda.hpp:
+
+/usr/include/boost/utility.hpp:
+
+/usr/include/boost/mpl/numeric_cast.hpp:
+
+/usr/include/boost/mpl/iterator_tags.hpp:
+
+/usr/include/boost/mpl/iterator_range.hpp:
+
+/usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp:
+
+/usr/include/boost/mpl/iter_fold.hpp:
+
+/usr/include/boost/preprocessor/punctuation/comma.hpp:
+
+/usr/include/boost/mpl/integral_c_tag.hpp:
 
 /usr/include/boost/preprocessor/logical/bool.hpp:
 
 /usr/include/boost/mpl/integral_c_fwd.hpp:
+
+/usr/include/boost/mpl/integral_c.hpp:
+
+/usr/include/boost/mpl/int.hpp:
+
+/usr/include/boost/mpl/inserter.hpp:
+
+/usr/include/boost/mpl/if.hpp:
+
+/usr/include/boost/mpl/greater_equal.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/stat.h:
+
+/usr/include/x86_64-linux-gnu/bits/waitstatus.h:
 
 /usr/include/boost/mpl/list/aux_/size.hpp:
 
@@ -6068,6 +6665,10 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/x86_64-linux-gnu/c++/12/bits/error_constants.h:
 
+/usr/include/netinet/tcp.h:
+
+/usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h:
+
 /usr/local/include/yaml-cpp/node/impl.h:
 
 /usr/include/boost/move/detail/std_ns_begin.hpp:
@@ -6100,6 +6701,8 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
+/usr/include/c++/12/cmath:
+
 /usr/include/boost/range/detail/msvc_has_iterator_workaround.hpp:
 
 /usr/include/boost/numeric/conversion/detail/converter.hpp:
@@ -6124,8 +6727,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /home/liner/sylar/sylar/endian1.h:
 
-/usr/include/boost/mpl/integral_c.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/uintn-identity.h:
 
 /usr/include/boost/mpl/arg_fwd.hpp:
@@ -6149,14 +6750,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/boost/numeric/conversion/converter_policies.hpp:
 
 /usr/include/boost/mpl/find_if.hpp:
-
-/usr/include/x86_64-linux-gnu/bits/math-vector.h:
-
-/usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp:
-
-/usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h:
 
 /usr/include/boost/mpl/apply_fwd.hpp:
 
@@ -6236,15 +6829,15 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/c++/12/bits/stl_iterator_base_funcs.h:
 
-/usr/include/boost/preprocessor/punctuation/comma.hpp:
-
-/usr/include/boost/mpl/integral_c_tag.hpp:
-
 /usr/include/x86_64-linux-gnu/bits/types/clock_t.h:
 
 /usr/include/x86_64-linux-gnu/asm/bitsperlong.h:
 
 /usr/include/locale.h:
+
+/usr/include/boost/mpl/has_xxx.hpp:
+
+/usr/include/boost/mpl/at_fwd.hpp:
 
 /usr/include/linux/stddef.h:
 
@@ -6306,10 +6899,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/time.h:
 
-/usr/local/include/yaml-cpp/yaml.h:
-
-/usr/include/boost/mpl/limits/arity.hpp:
-
 /usr/include/c++/12/streambuf:
 
 /usr/include/x86_64-linux-gnu/bits/waitflags.h:
@@ -6337,8 +6926,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/linux/close_range.h:
 
 /usr/include/c++/12/bits/allocated_ptr.h:
-
-/usr/include/boost/mpl/if.hpp:
 
 /usr/include/c++/12/bit:
 
@@ -6382,8 +6969,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/c++/12/bits/stl_multimap.h:
 
-/usr/include/boost/mpl/limits/vector.hpp:
-
 /usr/include/asm-generic/sockios.h:
 
 /usr/include/boost/mpl/fold.hpp:
@@ -6395,10 +6980,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/boost/mpl/vector/aux_/back.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/minus.hpp:
-
-/usr/include/boost/mpl/vector/aux_/preprocessed/typeof_based/vector20.hpp:
-
-/usr/include/boost/mpl/iter_fold.hpp:
 
 /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h:
 
@@ -6444,7 +7025,9 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/c++/12/bits/stl_map.h:
 
-/usr/include/boost/mpl/limits/list.hpp:
+/usr/include/boost/type_traits/has_plus_assign.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
 
 /usr/include/c++/12/utility:
 
@@ -6486,6 +7069,10 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/types/struct_tm.h:
 
+/usr/include/fcntl.h:
+
+/usr/include/x86_64-linux-gnu/bits/uio-ext.h:
+
 /usr/include/c++/12/bits/stl_uninitialized.h:
 
 /usr/include/boost/mpl/aux_/full_lambda.hpp:
@@ -6506,6 +7093,8 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/x86_64-linux-gnu/bits/wordsize.h:
 
+/usr/include/x86_64-linux-gnu/c++/12/bits/messages_members.h:
+
 /usr/include/boost/math/special_functions/sign.hpp:
 
 /usr/include/boost/mpl/aux_/config/typeof.hpp:
@@ -6517,12 +7106,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/c++/12/bits/codecvt.h:
 
 /home/liner/sylar/sylar/singleton.h:
-
-/usr/include/libintl.h:
-
-/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
-
-/usr/include/boost/mpl/lambda.hpp:
 
 /usr/include/c++/12/cstdio:
 
@@ -6539,10 +7122,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/x86_64-linux-gnu/bits/time.h:
 
 /usr/include/c++/12/bits/refwrap.h:
-
-/usr/include/boost/mpl/at_fwd.hpp:
-
-/usr/include/boost/mpl/has_xxx.hpp:
 
 /usr/include/boost/predef/os/macos.h:
 
@@ -6562,12 +7141,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/boost/mpl/aux_/config/gcc.hpp:
 
-/usr/include/c++/12/bits/unordered_map.h:
-
-/usr/include/c++/12/bits/stl_set.h:
-
-/usr/include/boost/mpl/aux_/config/ttp.hpp:
-
 /usr/include/boost/type_traits/is_same.hpp:
 
 /usr/include/boost/mpl/aux_/config/lambda.hpp:
@@ -6575,6 +7148,8 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/local/include/yaml-cpp/stlemitter.h:
 
 /usr/include/c++/12/bits/exception.h:
+
+/usr/include/c++/12/bits/locale_facets_nonio.h:
 
 /usr/include/math.h:
 
@@ -6595,6 +7170,10 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/boost/type_traits/function_traits.hpp:
 
 /usr/include/c++/12/debug/debug.h:
+
+/usr/lib/gcc/x86_64-linux-gnu/12/include/syslimits.h:
+
+/usr/include/c++/12/iomanip:
 
 /usr/include/x86_64-linux-gnu/sys/ioctl.h:
 
@@ -6642,6 +7221,8 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/c++/12/bits/ios_base.h:
 
+/home/liner/sylar/sylar/bytearray.cpp:
+
 /usr/include/c++/12/typeinfo:
 
 /usr/include/boost/range/detail/sfinae.hpp:
@@ -6667,10 +7248,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/boost/preprocessor/facilities/expand.hpp:
 
 /usr/include/c++/12/bits/parse_numbers.h:
-
-/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
-
-/usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/x86_64-linux-gnu/bits/struct_mutex.h:
 
@@ -6698,6 +7275,10 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/sched.h:
 
+/usr/include/boost/mpl/greater.hpp:
+
+/usr/include/wctype.h:
+
 /usr/include/boost/preprocessor/control/iif.hpp:
 
 /usr/include/boost/mpl/aux_/largest_int.hpp:
@@ -6722,11 +7303,11 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/boost/mpl/aux_/yes_no.hpp:
 
+/usr/include/x86_64-linux-gnu/bits/thread-shared-types.h:
+
+/usr/include/libintl.h:
+
 /usr/include/boost/mpl/aux_/comparison_op.hpp:
-
-/usr/include/x86_64-linux-gnu/sys/epoll.h:
-
-/usr/include/boost/mpl/less_equal.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/ucontext.h:
 
@@ -6735,6 +7316,12 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/boost/type_traits/is_enum.hpp:
 
 /usr/include/x86_64-linux-gnu/sys/socket.h:
+
+/usr/include/boost/type_traits/remove_reference.hpp:
+
+/usr/include/boost/preprocessor/array/data.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/time_members.h:
 
 /usr/include/c++/12/bits/valarray_array.h:
 
@@ -6880,6 +7467,58 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/lib/gcc/x86_64-linux-gnu/12/include/stddef.h:
 
+/usr/include/c++/12/bits/unordered_map.h:
+
+/usr/include/c++/12/bits/stl_set.h:
+
+/usr/include/boost/mpl/aux_/config/ttp.hpp:
+
+/home/liner/sylar/sylar/bytearray.h:
+
+/usr/include/boost/iterator/reverse_iterator.hpp:
+
+/usr/include/c++/12/bits/locale_facets_nonio.tcc:
+
+/usr/include/x86_64-linux-gnu/bits/flt-eval-method.h:
+
+/usr/include/x86_64-linux-gnu/bits/fp-fast.h:
+
+/usr/include/c++/12/bits/locale_classes.tcc:
+
+/usr/include/boost/config/workaround.hpp:
+
+/usr/include/boost/mpl/aux_/config/gpu.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/fp-logb.h:
+
+/usr/include/c++/12/bits/locale_conv.h:
+
+/usr/include/x86_64-linux-gnu/bits/iscanonical.h:
+
+/usr/include/boost/numeric/conversion/numeric_cast_traits.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp:
+
+/usr/include/x86_64-linux-gnu/c++/12/bits/c++allocator.h:
+
+/usr/include/x86_64-linux-gnu/bits/math-vector.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h:
+
+/usr/include/boost/range/empty.hpp:
+
+/usr/include/boost/mpl/eval_if.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/endian.h:
+
+/usr/include/x86_64-linux-gnu/bits/mathcalls.h:
+
+/usr/include/boost/type_traits/is_pod.hpp:
+
+/usr/include/x86_64-linux-gnu/bits/uio_lim.h:
+
+/usr/include/x86_64-linux-gnu/sys/uio.h:
+
 /home/liner/sylar/sylar/config.cpp:
 
 /usr/include/boost/mpl/size_fwd.hpp:
@@ -6887,8 +7526,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/c++/12/bits/exception_ptr.h:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/equal_to.hpp:
-
-/usr/include/boost/mpl/iterator_range.hpp:
 
 /usr/include/assert.h:
 
@@ -6963,12 +7600,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/boost/config/no_tr1/complex.hpp:
 
 /usr/include/boost/config/platform/linux.hpp:
-
-/usr/include/c++/12/bits/locale_classes.tcc:
-
-/usr/include/boost/config/workaround.hpp:
-
-/usr/include/boost/mpl/aux_/config/gpu.hpp:
 
 /usr/include/boost/core/addressof.hpp:
 
@@ -7060,8 +7691,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/boost/iterator/iterator_traits.hpp:
 
-/usr/include/boost/iterator/reverse_iterator.hpp:
-
 /usr/include/boost/lexical_cast/bad_lexical_cast.hpp:
 
 /usr/include/boost/mpl/long_fwd.hpp:
@@ -7108,12 +7737,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/boost/mpl/advance_fwd.hpp:
 
-/usr/include/boost/utility.hpp:
-
-/usr/include/boost/mpl/numeric_cast.hpp:
-
-/usr/include/boost/mpl/iterator_tags.hpp:
-
 /usr/include/boost/mpl/apply_wrap.hpp:
 
 /usr/include/c++/12/bits/streambuf.tcc:
@@ -7145,8 +7768,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/netinet/in.h:
 
 /usr/include/boost/mpl/aux_/arithmetic_op.hpp:
-
-/usr/include/boost/mpl/inserter.hpp:
 
 /usr/include/boost/mpl/aux_/arity_spec.hpp:
 
@@ -7204,8 +7825,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/boost/mpl/aux_/config/static_constant.hpp:
 
-/usr/include/boost/mpl/lambda_fwd.hpp:
-
 /usr/include/boost/mpl/aux_/contains_impl.hpp:
 
 /usr/include/boost/mpl/aux_/find_if_pred.hpp:
@@ -7262,10 +7881,6 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/boost/mpl/aux_/numeric_cast_utils.hpp:
 
-/usr/include/wctype.h:
-
-/usr/include/boost/mpl/greater.hpp:
-
 /usr/include/c++/12/bits/move.h:
 
 /usr/include/boost/mpl/aux_/numeric_op.hpp:
@@ -7277,6 +7892,10 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp:
 
 /usr/include/boost/mpl/bind.hpp:
+
+/usr/include/boost/mpl/iter_fold_if.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
 
 /usr/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
 
@@ -7388,15 +8007,7 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 
 /usr/include/boost/mpl/deref.hpp:
 
-/usr/include/boost/preprocessor/arithmetic/sub.hpp:
-
-/usr/include/boost/mpl/list/aux_/O1_size.hpp:
-
 /usr/include/boost/mpl/distance.hpp:
-
-/usr/include/boost/range/empty.hpp:
-
-/usr/include/boost/mpl/eval_if.hpp:
 
 /usr/include/boost/utility/identity_type.hpp:
 
@@ -7405,15 +8016,3 @@ CMakeFiles/sylar.dir/sylar/util.cpp.o: /home/liner/sylar/sylar/util.cpp \
 /usr/include/boost/mpl/find.hpp:
 
 /usr/include/boost/mpl/front_fwd.hpp:
-
-/usr/include/boost/mpl/greater_equal.hpp:
-
-/usr/include/boost/mpl/int.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
-
-/usr/include/boost/mpl/iter_fold_if.hpp:
-
-/usr/include/boost/mpl/vector/aux_/push_front.hpp:
-
-/usr/include/boost/mpl/less.hpp:

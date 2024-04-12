@@ -262,6 +262,32 @@ test_address/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_address.dir/build.make CMakeFiles/test_address.dir/build
 .PHONY : test_address/fast
 
+#=============================================================================
+# Target rules for targets named test_socket
+
+# Build rule for target.
+test_socket: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_socket
+.PHONY : test_socket
+
+# fast build rule for target.
+test_socket/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_socket.dir/build.make CMakeFiles/test_socket.dir/build
+.PHONY : test_socket/fast
+
+#=============================================================================
+# Target rules for targets named test_bytearray
+
+# Build rule for target.
+test_bytearray: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test_bytearray
+.PHONY : test_bytearray
+
+# fast build rule for target.
+test_bytearray/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_bytearray.dir/build.make CMakeFiles/test_bytearray.dir/build
+.PHONY : test_bytearray/fast
+
 source/test.o: source/test.cpp.o
 .PHONY : source/test.o
 
@@ -309,6 +335,30 @@ source/test_address.s: source/test_address.cpp.s
 source/test_address.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_address.dir/build.make CMakeFiles/test_address.dir/source/test_address.cpp.s
 .PHONY : source/test_address.cpp.s
+
+source/test_bytearray.o: source/test_bytearray.cpp.o
+.PHONY : source/test_bytearray.o
+
+# target to build an object file
+source/test_bytearray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_bytearray.dir/build.make CMakeFiles/test_bytearray.dir/source/test_bytearray.cpp.o
+.PHONY : source/test_bytearray.cpp.o
+
+source/test_bytearray.i: source/test_bytearray.cpp.i
+.PHONY : source/test_bytearray.i
+
+# target to preprocess a source file
+source/test_bytearray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_bytearray.dir/build.make CMakeFiles/test_bytearray.dir/source/test_bytearray.cpp.i
+.PHONY : source/test_bytearray.cpp.i
+
+source/test_bytearray.s: source/test_bytearray.cpp.s
+.PHONY : source/test_bytearray.s
+
+# target to generate assembly for a file
+source/test_bytearray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_bytearray.dir/build.make CMakeFiles/test_bytearray.dir/source/test_bytearray.cpp.s
+.PHONY : source/test_bytearray.cpp.s
 
 source/test_config.o: source/test_config.cpp.o
 .PHONY : source/test_config.o
@@ -454,6 +504,30 @@ source/test_scheduler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_scheduler.dir/build.make CMakeFiles/test_scheduler.dir/source/test_scheduler.cpp.s
 .PHONY : source/test_scheduler.cpp.s
 
+source/test_socket.o: source/test_socket.cpp.o
+.PHONY : source/test_socket.o
+
+# target to build an object file
+source/test_socket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_socket.dir/build.make CMakeFiles/test_socket.dir/source/test_socket.cpp.o
+.PHONY : source/test_socket.cpp.o
+
+source/test_socket.i: source/test_socket.cpp.i
+.PHONY : source/test_socket.i
+
+# target to preprocess a source file
+source/test_socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_socket.dir/build.make CMakeFiles/test_socket.dir/source/test_socket.cpp.i
+.PHONY : source/test_socket.cpp.i
+
+source/test_socket.s: source/test_socket.cpp.s
+.PHONY : source/test_socket.s
+
+# target to generate assembly for a file
+source/test_socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/test_socket.dir/build.make CMakeFiles/test_socket.dir/source/test_socket.cpp.s
+.PHONY : source/test_socket.cpp.s
+
 source/test_thread.o: source/test_thread.cpp.o
 .PHONY : source/test_thread.o
 
@@ -525,6 +599,30 @@ sylar/address.s: sylar/address.cpp.s
 sylar/address.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/address.cpp.s
 .PHONY : sylar/address.cpp.s
+
+sylar/bytearray.o: sylar/bytearray.cpp.o
+.PHONY : sylar/bytearray.o
+
+# target to build an object file
+sylar/bytearray.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/bytearray.cpp.o
+.PHONY : sylar/bytearray.cpp.o
+
+sylar/bytearray.i: sylar/bytearray.cpp.i
+.PHONY : sylar/bytearray.i
+
+# target to preprocess a source file
+sylar/bytearray.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/bytearray.cpp.i
+.PHONY : sylar/bytearray.cpp.i
+
+sylar/bytearray.s: sylar/bytearray.cpp.s
+.PHONY : sylar/bytearray.s
+
+# target to generate assembly for a file
+sylar/bytearray.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/bytearray.cpp.s
+.PHONY : sylar/bytearray.cpp.s
 
 sylar/config.o: sylar/config.cpp.o
 .PHONY : sylar/config.o
@@ -694,6 +792,30 @@ sylar/scheduler.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/scheduler.cpp.s
 .PHONY : sylar/scheduler.cpp.s
 
+sylar/socket.o: sylar/socket.cpp.o
+.PHONY : sylar/socket.o
+
+# target to build an object file
+sylar/socket.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/socket.cpp.o
+.PHONY : sylar/socket.cpp.o
+
+sylar/socket.i: sylar/socket.cpp.i
+.PHONY : sylar/socket.i
+
+# target to preprocess a source file
+sylar/socket.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/socket.cpp.i
+.PHONY : sylar/socket.cpp.i
+
+sylar/socket.s: sylar/socket.cpp.s
+.PHONY : sylar/socket.s
+
+# target to generate assembly for a file
+sylar/socket.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/sylar.dir/build.make CMakeFiles/sylar.dir/sylar/socket.cpp.s
+.PHONY : sylar/socket.cpp.s
+
 sylar/thread.o: sylar/thread.cpp.o
 .PHONY : sylar/thread.o
 
@@ -777,12 +899,14 @@ help:
 	@echo "... sylar"
 	@echo "... test"
 	@echo "... test_address"
+	@echo "... test_bytearray"
 	@echo "... test_config"
 	@echo "... test_fiber"
 	@echo "... test_hook"
 	@echo "... test_iomanager"
 	@echo "... test_pipe"
 	@echo "... test_scheduler"
+	@echo "... test_socket"
 	@echo "... test_thread"
 	@echo "... test_util"
 	@echo "... source/test.o"
@@ -791,6 +915,9 @@ help:
 	@echo "... source/test_address.o"
 	@echo "... source/test_address.i"
 	@echo "... source/test_address.s"
+	@echo "... source/test_bytearray.o"
+	@echo "... source/test_bytearray.i"
+	@echo "... source/test_bytearray.s"
 	@echo "... source/test_config.o"
 	@echo "... source/test_config.i"
 	@echo "... source/test_config.s"
@@ -809,6 +936,9 @@ help:
 	@echo "... source/test_scheduler.o"
 	@echo "... source/test_scheduler.i"
 	@echo "... source/test_scheduler.s"
+	@echo "... source/test_socket.o"
+	@echo "... source/test_socket.i"
+	@echo "... source/test_socket.s"
 	@echo "... source/test_thread.o"
 	@echo "... source/test_thread.i"
 	@echo "... source/test_thread.s"
@@ -818,6 +948,9 @@ help:
 	@echo "... sylar/address.o"
 	@echo "... sylar/address.i"
 	@echo "... sylar/address.s"
+	@echo "... sylar/bytearray.o"
+	@echo "... sylar/bytearray.i"
+	@echo "... sylar/bytearray.s"
 	@echo "... sylar/config.o"
 	@echo "... sylar/config.i"
 	@echo "... sylar/config.s"
@@ -839,6 +972,9 @@ help:
 	@echo "... sylar/scheduler.o"
 	@echo "... sylar/scheduler.i"
 	@echo "... sylar/scheduler.s"
+	@echo "... sylar/socket.o"
+	@echo "... sylar/socket.i"
+	@echo "... sylar/socket.s"
 	@echo "... sylar/thread.o"
 	@echo "... sylar/thread.i"
 	@echo "... sylar/thread.s"

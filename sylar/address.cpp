@@ -15,6 +15,7 @@ static T CreateMask(uint32_t bits) {
 	return (1 << (sizeof(T) * 8 - bits)) - 1;
 }
 
+//计算二进制码中1的个数
 template<class T> 
 static uint32_t CountBytes(T value) {
 	uint32_t result = 0;
@@ -194,7 +195,7 @@ std::string Address::toString() {
 	return ss.str();
 }
 
-Address::ptr Address::Create(const sockaddr* address, uint32_t port) {
+Address::ptr Address::Create(const sockaddr* address, uint16_t port) {
 	if (address == nullptr) {
 		return nullptr;
 	} 
@@ -236,7 +237,7 @@ bool Address::operator != (const Address& rhs) const {
 	return !(*this == rhs);
 }
 
-IPAddress::ptr IPAddress::Create(const char* address, uint32_t port) {
+IPAddress::ptr IPAddress::Create(const char* address, uint16_t port) {
 	addrinfo hints, *results;
 	memset(&hints, 0, sizeof(addrinfo));
 	
@@ -265,7 +266,7 @@ IPAddress::ptr IPAddress::Create(const char* address, uint32_t port) {
 	}
 }
 
-IPv4Address::IPv4Address::ptr Create(const char* address, uint32_t port) {
+IPv4Address::IPv4Address::ptr Create(const char* address, uint16_t port) {
 	IPv4Address::ptr rt(new IPv4Address);
 	rt->m_addr.sin_port = byteswapOnLittleEndian(port);
 	int result = inet_pton(AF_INET, address, &rt->m_addr.sin_addr);
@@ -282,7 +283,7 @@ IPv4Address::IPv4Address(const sockaddr_in& address) {
 	m_addr = address;
 }
 
-IPv4Address::IPv4Address(uint32_t address, uint32_t port) {
+IPv4Address::IPv4Address(uint32_t address, uint16_t port) {
 	memset(&m_addr, 0, sizeof(m_addr));
 	m_addr.sin_family = AF_INET;
 	m_addr.sin_port = byteswapOnLittleEndian(port);
@@ -290,6 +291,10 @@ IPv4Address::IPv4Address(uint32_t address, uint32_t port) {
 }
 
 const sockaddr* IPv4Address::getAddr() const {
+	return (sockaddr*)&m_addr;
+}
+
+sockaddr* IPv4Address::getAddr() {
 	return (sockaddr*)&m_addr;
 }
 
@@ -342,11 +347,11 @@ uint32_t IPv4Address::getPort() const {
 	return byteswapOnLittleEndian(m_addr.sin_port);
 }
 
-void IPv4Address::setPort(uint32_t v) {
+void IPv4Address::setPort(uint16_t v) {
 	m_addr.sin_port = byteswapOnLittleEndian(v);
 }
 
-IPv6Address::ptr IPv6Address::Create(const char* address, uint32_t port) {
+IPv6Address::ptr IPv6Address::Create(const char* address, uint16_t port) {
 	IPv6Address::ptr rt(new IPv6Address);
 	rt->m_addr.sin6_port = byteswapOnLittleEndian(port);
 	int result = inet_pton(AF_INET6, address, &rt->m_addr.sin6_addr);
@@ -368,7 +373,7 @@ IPv6Address::IPv6Address(const sockaddr_in6& addr) {
 	m_addr = addr;
 }
 
-IPv6Address::IPv6Address(const uint8_t address[16], uint32_t port) {
+IPv6Address::IPv6Address(const uint8_t address[16], uint16_t port) {
 	memset(&m_addr, 0, sizeof(m_addr));
 	m_addr.sin6_family = AF_INET6;
 	m_addr.sin6_port = byteswapOnLittleEndian(port);
@@ -376,6 +381,10 @@ IPv6Address::IPv6Address(const uint8_t address[16], uint32_t port) {
 }
 
 const sockaddr* IPv6Address::getAddr() const {
+	return (sockaddr*)&m_addr;
+}
+
+sockaddr* IPv6Address::getAddr() {
 	return (sockaddr*)&m_addr;
 }
 
@@ -446,7 +455,7 @@ uint32_t IPv6Address::getPort() const {
 	return byteswapOnLittleEndian(m_addr.sin6_port);
 }
 
-void IPv6Address::setPort(uint32_t v) {
+void IPv6Address::setPort(uint16_t v) {
 	m_addr.sin6_port = byteswapOnLittleEndian(v);
 }
 
@@ -477,10 +486,18 @@ UnixAddress::UnixAddress(const std::string& path) {
 const sockaddr* UnixAddress::getAddr() const {
 	return (sockaddr*)&m_addr;
 }
+  
+sockaddr* UnixAddress::getAddr() {
+	return (sockaddr*)&m_addr;
+}
 
 socklen_t UnixAddress::getAddrLen() const {
 	return m_length;
 } 
+
+void UnixAddress::setAddrLen(socklen_t addrlen) {
+	m_length = addrlen;
+}
 
 std::ostream& UnixAddress::insert(std::ostream& os) const {
 	if (m_length > offsetof(sockaddr_un, sun_path) 
@@ -505,6 +522,11 @@ UnKnowAddress::UnKnowAddress(const sockaddr& addr) {
 const sockaddr* UnKnowAddress::getAddr() const {
 	return &m_addr;
 }
+
+sockaddr* UnKnowAddress::getAddr() {
+	return (sockaddr*)&m_addr;
+}
+
 socklen_t UnKnowAddress::getAddrLen() const {
 	return sizeof(m_addr);
 }
