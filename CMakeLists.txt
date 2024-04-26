@@ -14,6 +14,10 @@ set(LIB_SRC
 		sylar/fiber.cpp
 		sylar/fd_manager.cpp
 		sylar/hook.cpp
+		sylar/http/http.cpp
+		sylar/http/http11_parser.rl.cpp
+		sylar/http/httpclient_parser.rl.cpp
+		sylar/http/http_parser.cpp
         sylar/log.cpp
 		sylar/thread.cpp
 		sylar/timer.cpp
@@ -102,6 +106,16 @@ add_executable(test_bytearray source/test_bytearray.cpp )
 add_dependencies(test_bytearray sylar)
 force_redefine_file_macro_for_sources(test_bytearray)		# __FILE__ 
 target_link_libraries(test_bytearray sylar ${LIB_LIB})
+
+add_executable(test_http source/test_http.cpp )
+add_dependencies(test_http sylar)
+force_redefine_file_macro_for_sources(test_http)		# __FILE__ 
+target_link_libraries(test_http sylar ${LIB_LIB})
+
+add_executable(test_parser source/test_parser.cpp )
+add_dependencies(test_parser sylar)
+force_redefine_file_macro_for_sources(test_parser)		# __FILE__ 
+target_link_libraries(test_parser sylar ${LIB_LIB})
 
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/bin)
 set(LIBRARY_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/lib)

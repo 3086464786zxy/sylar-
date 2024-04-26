@@ -18,6 +18,14 @@ CXX_FLAGS =  -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror 
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/hook.cpp.o_DEFINES = __FILE__="sylar/hook.cpp"
 
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/http.cpp.o_DEFINES = __FILE__="sylar/http/http.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/http11_parser.rl.cpp.o_DEFINES = __FILE__="sylar/http/http11_parser.rl.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/httpclient_parser.rl.cpp.o_DEFINES = __FILE__="sylar/http/httpclient_parser.rl.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/http_parser.cpp.o_DEFINES = __FILE__="sylar/http/http_parser.cpp"
+
 # Custom defines: CMakeFiles/sylar.dir/sylar/log.cpp.o_DEFINES = __FILE__="sylar/log.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/thread.cpp.o_DEFINES = __FILE__="sylar/thread.cpp"
