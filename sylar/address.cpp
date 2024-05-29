@@ -8,7 +8,7 @@
 
 namespace sylar {
 
-static sylar::Logger::ptr g_logger = SYLAR_LOG_ROOT();
+static sylar::Logger::ptr g_logger = SYLAR_LOG_NAME("system");
 
 template<class T> 
 static T CreateMask(uint32_t bits) {
@@ -475,11 +475,12 @@ UnixAddress::UnixAddress(const std::string& path) {
 	if (!path.empty() && path[0] == '\0') {
 		--m_length;
 	}
-	
+	//因为空字符开头的路径表示一个抽象套接字，不需要额外的空字符作为结尾。	
 	if (m_length > sizeof(m_addr.sun_path)) {
 		throw std::logic_error("path too long");
 	}	 
 	memcpy(m_addr.sun_path, path.c_str(), m_length);
+	//m_length 更新为整个 sockaddr_un 结构体的大小
 	m_length += offsetof(sockaddr_un, sun_path);
 }
 
@@ -534,6 +535,10 @@ socklen_t UnKnowAddress::getAddrLen() const {
 std::ostream& UnKnowAddress::insert(std::ostream& os) const {
 	os << "[UnknowAddress family=" << m_addr.sa_family << "]";
 	return os;
+}
+
+std::ostream& operator << (std::ostream& os, Address& addr) {
+	return addr.insert(os);
 }
 
 }

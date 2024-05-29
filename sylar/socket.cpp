@@ -202,11 +202,16 @@ bool Socket::connect(const Address::ptr addr, uint64_t timeout_ms ) {
 
 bool Socket::listen(int backlob) {
 	if (!isValid()) {
-		SYLAR_LOG_ERROR(g_logger) << "listen error errno=" << errno 
+		SYLAR_LOG_ERROR(g_logger) << "listen error sock=-1" 
 			<< " errstr=" << strerror(errno);
 		return false;
 	}
-	return false;
+	if (::listen(m_sock, backlob)) {
+		SYLAR_LOG_ERROR(g_logger) << "listen error errno=" << errno
+			<< " strerrno=" << strerror(errno);		
+		return false;
+	}
+	return true;
 }
 
 bool Socket::close() {
@@ -392,6 +397,16 @@ std::ostream& Socket::dump(std::ostream& os) const {
 	} 
 	os << "]";
 	return os;
+}
+
+std::string Socket::toString() const {
+	std::stringstream ss;
+	dump(ss);
+	return ss.str();
+}
+
+std::ostream& operator << (std::ostream& os, const Socket& addr) {
+	return addr.dump(os); 
 }
 
 bool Socket::cancelRead() {

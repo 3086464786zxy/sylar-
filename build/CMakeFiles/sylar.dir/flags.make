@@ -26,15 +26,27 @@ CXX_FLAGS =  -rdynamic -O0 -fPIC -ggdb -std=c++11 -Wall -Wno-deprecated -Werror 
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/http/http_parser.cpp.o_DEFINES = __FILE__="sylar/http/http_parser.cpp"
 
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/http_session.cpp.o_DEFINES = __FILE__="sylar/http/http_session.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/http_server.cpp.o_DEFINES = __FILE__="sylar/http/http_server.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/http/servlet.cpp.o_DEFINES = __FILE__="sylar/http/servlet.cpp"
+
 # Custom defines: CMakeFiles/sylar.dir/sylar/log.cpp.o_DEFINES = __FILE__="sylar/log.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/thread.cpp.o_DEFINES = __FILE__="sylar/thread.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/timer.cpp.o_DEFINES = __FILE__="sylar/timer.cpp"
 
+# Custom defines: CMakeFiles/sylar.dir/sylar/tcp_server.cpp.o_DEFINES = __FILE__="sylar/tcp_server.cpp"
+
 # Custom defines: CMakeFiles/sylar.dir/sylar/scheduler.cpp.o_DEFINES = __FILE__="sylar/scheduler.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/socket.cpp.o_DEFINES = __FILE__="sylar/socket.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/stream.cpp.o_DEFINES = __FILE__="sylar/stream.cpp"
+
+# Custom defines: CMakeFiles/sylar.dir/sylar/socket_stream.cpp.o_DEFINES = __FILE__="sylar/socket_stream.cpp"
 
 # Custom defines: CMakeFiles/sylar.dir/sylar/iomanager.cpp.o_DEFINES = __FILE__="sylar/iomanager.cpp"
 

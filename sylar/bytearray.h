@@ -108,10 +108,33 @@ public:
 	std::string toHexString() const;		//转换16进制文本
 
 	//只获取当前内容， 不修改position
+	/**
+     * 获取可读取的缓存,保存成iovec数组
+     * buffers 保存可读取数据的iovec数组
+     * len 读取数据的长度,如果len > getReadSize() 则 len = getReadSize()
+     * 返回实际数据的长度
+     */
 	int32_t  getReadBuffers(std::vector<iovec>& buffers, uint64_t len = ~0ull) const;
+
+	/**
+     * 获取可读取的缓存,保存成iovec数组,从position位置开始
+     * buffers 保存可读取数据的iovec数组
+     * len 读取数据的长度,如果len > getReadSize() 则 len = getReadSize()
+     * position 读取数据的位置
+     * 返回实际数据的长度
+     */
 	int32_t  getReadBuffers(std::vector<iovec>& buffers, uint64_t len, uint64_t position) const;
+
 	//增加容量， 不修改position
+	/**
+     *  获取可写入的缓存,保存成iovec数组
+     * buffers 保存可写入的内存的iovec数组
+     * len 写入的长度
+     * 返回实际的长度
+     * 如果(m_position + len) > m_capacity 则 m_capacity扩容N个节点以容纳len长度
+     */
 	uint64_t getWriteBuffers(std::vector<iovec>& buffers, uint64_t len);
+
 private: 
 	void addCapacity(size_t size);
 	size_t getCapacity() const { return m_capacity - m_position; } 

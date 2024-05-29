@@ -159,5 +159,7 @@ private:
 	sockaddr m_addr;
 };
 
+std::ostream& operator << (std::ostream& os, Address& addr);
+
 }
 #endif

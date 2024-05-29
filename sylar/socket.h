@@ -90,6 +90,7 @@ public:
 	int getError();				//返回错误
 
 	std::ostream& dump(std::ostream& os) const;
+	std::string toString() const;
 	//返回socket句柄
 	int getSocket() const { return m_sock;};
 	
@@ -113,6 +114,7 @@ private:
 	Address::ptr m_remoteAddress;
 };
 
+std::ostream& operator << (std::ostream& os, const Socket& addr);
 }
 
 #endif 
