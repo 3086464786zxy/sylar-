@@ -337,8 +337,8 @@ Address::ptr Socket::getRemoteAddress() {
 }
 
 Address::ptr Socket::getLocalAddress() {
-	if (m_remoteAddress) {
-		return m_remoteAddress;
+	if (m_localAddress) {
+		return m_localAddress;
 	}
 
 	Address::ptr result;
@@ -366,8 +366,8 @@ Address::ptr Socket::getLocalAddress() {
 		UnixAddress::ptr addr = std::dynamic_pointer_cast<UnixAddress>(result);
 		addr->setAddrLen(addrlen); 		//------------------------------------------------------有问题
 	}
-	m_remoteAddress = result;
-	return m_remoteAddress;
+	m_localAddress = result;
+	return m_localAddress;
 }
 
 bool Socket::isValid() const {

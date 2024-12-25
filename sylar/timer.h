@@ -15,6 +15,7 @@ public:
 	typedef std::shared_ptr<Timer> ptr;
 	bool cancel(); 
 	bool refresh(); 
+	//from_now是否从当前时间开始计算
 	bool reset(uint64_t ms, bool from_now); 
 private:
 	Timer(uint64_t ms, std::function<void()> cb, 

@@ -49,7 +49,6 @@ bool FdCtx::init() {
 	} 
 
 	m_userNonblock = false;
-	m_sysNonblock = false;
 	return m_isInit;
 }
 

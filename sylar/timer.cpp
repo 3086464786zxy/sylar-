@@ -64,7 +64,7 @@ bool Timer::refresh() {
 }
 
 
-bool Timer::reset(uint64_t ms, bool from_now) { //from_now立马改时间
+bool Timer::reset(uint64_t ms, bool from_now) { 
 	if (ms == m_ms && !from_now) {
 		return true;
 	}
