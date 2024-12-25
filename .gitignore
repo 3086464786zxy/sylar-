@@ -1,5 +1,5 @@
 tags
 ./sylar/tags
 ./sylar/http/tags
-./bin
-./lib
+bin
+lib
